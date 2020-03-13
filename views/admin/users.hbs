@@ -1,0 +1,18 @@
+  <div class="starter-template">
+      <h1 class="text-center">Users</h1>
+      <table class="table">
+          <tr>
+              <th>Name</th>
+              <th>Email</th>
+              <th>Role</th>
+          </tr>
+
+          {{#each users}}
+          <tr>
+            <th>{{name}}</th>
+            <th>{{email}}</th>
+            <th>{{role}}</th>
+          </tr>         
+          {{/each}}
+      </table>
+  </div>
